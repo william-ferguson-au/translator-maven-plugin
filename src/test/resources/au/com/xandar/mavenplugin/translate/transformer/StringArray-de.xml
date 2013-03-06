@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Scoreloop Strings -->
+    <string-array name="facebook_posting_descriptions">
+        <item>Verbessern Sie Ihren Wortschatz. 100.000 Rätsel zu lösen.</item>
+        <item>Verbessern Sie Ihren Wortschatz. Wie viele Wörter kann man finden?</item>
+        <item>100.000 Rätsel zu lösen. Können Sie die 9 Buchstaben-Wort?</item>
+        <item>100.000 Rätsel zu lösen. Wie viele Wörter kann man finden?</item>
+        <item>Wie geht es deinem Wortschatz? Scrabble Praxis vielleicht? Oder einfach nur zu verbrennen einige Zeit, dass dein Geist scharf.</item>
+    </string-array>
+</resources>

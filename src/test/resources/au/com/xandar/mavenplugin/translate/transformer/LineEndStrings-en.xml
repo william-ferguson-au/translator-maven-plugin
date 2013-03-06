@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="line_end">Well done!\nYou found another one.</string>
+    <string name="line_end_mid_sentence">The cat\nsat on the roof.</string>
+    <string name="complex_line_end">
+        Found %1$d of %2$d words
+\nTime Remaining: %3$.1fs
+\nStarted: %4$tl:%4$tM%4$tp %4$te-%4$tb-%4$ty
+    </string>
+    <string name="mid_eol">Give\nUp?</string>
+</resources>

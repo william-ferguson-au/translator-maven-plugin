@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="splash_text">载入中...</string>
+
+    <string name="single_quote">燕窝是高</string>
+    <string name="double_quote">你发现了“头”</string>
+    <string name="injected">你发现“%1$s”</string>
+</resources>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="word_accepted">Well done!\nSie haben eine andere.</string>
+    <string name="word_accepted_nine_letter">Well done!\nSie haben die 9 letter word!</string>
+    <string name="word_rejected">Sorry, \"%1$s\"\nist keine akzeptable Wort</string>
+    <string name="word_rejected_already_found">Du hast bereits gefunden\n\"%1$s\"</string>
+
+    <string name="crash_toast_text">Ein unerwarteter Fehler verursacht hat Jumblee zum Absturz bringen. Es tut uns leid.
+\n\nEin Fehlerbericht wurde gesendet und wir hoffen, dass es feste bald.</string>
+
+    <string name="overview_CurrentGameText">Gefunden %1$d von %2$d Worte
+\nVerbleibende Zeit: %3$.1fs
+\nGestartet: %4$tl:%4$tM%4$tp %4$te-%4$tb-%4$ty
+    </string>
+
+    <string name="answerView_GameText">Gefunden %1$d von %2$d Worte
+\n
+\nGefunden: %3$s
+    </string>
+    <string name="answerView_GameText_IncludingUndiscovered">Gefunden %1$d von %2$d Worte
+\n
+\nGefunden: %3$s
+\n
+\nUndiscovered: %4$s
+    </string>
+
+    <string name="progress_initialiseApplication">Abrufen von Details zum Spiel.
+\nBitte warten ...</string>
+    <string name="progress_startingNewGame">Ab neues Spiel.
+\nBitte warten ...</string>
+    <string name="progress_resumingGame">Weiterführende Spiel.
+\nBitte warten ...</string>
+
+    <string name="progress_completingGame_message_noWordsFound_startingNewGame">Nun, das letzte Spiel nicht allzu gut zu gehen.
+\nSie haben nicht ein einziges Wort.
+\n
+\nAber ich bin froh, dass du mit einem anderen zu gehen.</string>
+    <string name="progress_completingGame_message_noWordsFound">Woah, hast du nicht finden keine Worte!
+\nHaben Sie ein anderes gehen, ich bin sicher, dass Sie besser machen können.</string>
+    <string name="progress_completingGame_message">Well done! Ihr Ergebnis von %1$.0f ist %6$s.
+\n
+\nSie haben %2$d Worte aus %3$d (%4$.0f%%).
+\nBei einer Rate von %5$.2f Wörter pro Minute.
+\n
+\nIhr Ergebnis wird unsere globale Anzeigers veröffentlicht.</string>
+    <string name="progress_completingGame_message_askPostToFB">\nMöchten auch Sie, um es Facebook posten?</string>
+
+    <string name="progress_savingGame">Speichern Details zum Spiel.
+\nBitte warten ...</string>
+
+    <string name="confirmEndGame_message">\nBeenden so bald?
+\nSind Sie sicher, dass Sie fertig sind?
+\n
+    </string>
+    <string name="confirmEndGame_positiveButton">Ich bin fertig</string>
+
+    <string name="update_to_new_version_message">
+\nAktuelle Version: %1$s-%2$d
+\nNeue Version: %3$s-%4$d
+\nVeröffentlicht am %5$s
+\n
+\nInstallieren Sie die neue Version?</string>
+    <string name="rate_me_dialog_message">Wir haben unser Bestes versucht, Jumblee groß.
+\n
+\nDa du gespielt hast es jetzt ein paar Mal,
+\nWir hoffen, Sie denke, es ist auch toll.
+\n
+\nWenn Sie stoßen irgendwelche Probleme oder Ideen,
+\nlass es uns wissen, damit wir richtig machen auf sie.
+\n
+\nUnd wenn Sie Lust dazu, bewerten Sie in dem Android Market.
+\nLassen Sie alle wissen, wie gut Sie denken Jumblee ist.
+\n
+    </string>
+
+    <string name="piracy_dialog_message">Jumblee wurde mit viel Liebe gefertigt
+\nund Pflege und nahm viele Monate Arbeit.
+\n
+\nDas Problem ist, dass es scheint, dass diese Kopie von Jumblee wurde Raubkopien. Was bedeutet, dass einige Bastard profitieren von meiner harten Arbeit, und Sie haben eine Version von Jumblee, die nie verbessert werden kann.
+\n
+\nSo laden Sie eine aktuelle, legitim und kostenlose Version von Jumblee, auf die entsprechende Schaltfläche klicken.
+\n
+    </string>
+
+    <string name="how_to_play_dialog_message">Jumblee ist ein Wort, Spiel, wo Sie so viele Wörter aus vier oder mehr Buchstaben in der vorgegebenen Zeit finden müssen.
+\n
+\nJedes Wort muss die zentrale Brief genau einmal enthalten, während andere Fliesen können nicht mehr als einmal verwendet werden.
+\n
+\nSie beginnen jedes Spiel mit 60 Sekunden und die Suche nach einem neuen Wort steigt dieser Zeit um 20 Sekunden.
+\n
+\nDie Spiele endet, wenn entweder:
+\n - Die Zeit läuft aus, oder
+\n - Sie geben
+\n
+\nScores sind sowohl der Anteil der gefundenen Wörter und wie schnell Wörter gefunden werden bestimmt. So wie viele Wörter wie möglich finden, so schnell wie du kannst.
+\n
+\nViel Spaß.</string>
+
+    <string name="eula_dialog_message">Ich hasse lange langweilig legalese EULAs, so ist dies nicht ein. Allerdings ist es noch eine Lizenzvereinbarung zwischen Ihnen und Xandar Pty Ltd für die Nutzung von Jumblee, aber hoffentlich ist es ein bisschen mehr Spaß.
+\n
+\n
+\nIch Leasing Sie diese app, wird es kostet keinen Cent.
+\nAber der Inhalt ist mein, es ist nur dein zu mieten.
+\n
+\nSie können Jumblee anderen geben kann kein Geld.
+\nSie können nicht auseinander oder verändern, das ist nicht lustig.
+\n
+\nIch werde unterstützen Sie so gut ich kann, und erheben keine Gebühren.
+\nSie stimmen zu, es ist ein Spiel. Keine Schulden, keine Garantien.
+\n
+\nIch sammle anon Nutzungsdaten, um das Spiel besser.
+\nSie stimmen zu, dies zu unterstützen, wie die Endbenutzer.
+\n
+\nJumblee zeigt Anzeigen, weil ich habe zu essen.
+\nRough (regional) Lage macht diese Anzeigen groß.
+\n
+\nSie verpflichten sich, die Anzeigen zu schalten, ist es nur fair.
+\nZur Zahlung für 6 Monate Entwicklung und Haarausfall.
+\n
+\nIch glaube nicht, speichern Sie Ihren Standort, oder verwenden Sie es für irgendetwas anderes.
+\nWenn das jemals ändert Ich verspreche, fragen Sie zuerst.</string>
+
+    <string name="no_available_jumbles_dialog_message">Es gibt keine Jumbles derzeit verfügbaren.
+\n
+\nSie haben wirklich durch sie wurde am laufenden Band zur Neige geht.
+\nWas ist Ihre percentageFound gefunden?
+\nDenken Sie die Welt Qualifikanten mit dem machen?
+\n
+\nAuf jeden Fall sind mehr Jumbles generiert.
+\nSo geduldig zu sein und Sie können wieder auf es in einer Minute.
+\n
+\nFreut mich, dich zu sehen sind so scharf :-)</string>
+
+    <!-- About dialog -->
+    <string name="about_dialog_message">Version: %1$s-%2$d
+\nErstellt von Xandar Mobility.
+\n(C) 2011 Xandar Mobility. Alle Rechte vorbehalten.</string>
+    <string name="about_dialog_updateMessage">
+\nEine neue Version verfügbar ist.
+\nVersion %1$s-%2$d auf %3$sveröffentlicht.
+\n
+\nMöchten Sie aktualisieren?
+\n
+    </string>
+    <string name="about_dialog_contactUs_body">
+    \n
+    Wir hoffen sehr, Sie genießen zu spielen Jumblee, aber lasst uns wissen, was Sie über das Spiel denken.\n
+    \n
+    Gut, schlecht oder hässlich, wir hören.\n
+    \n
+    \n
+    \n
+    Jumblee Version =%1$s-%2$d\n
+    Phone =%3$s\n
+    Handy-Modell =%4$s\n
+    Android Version =%5$s\n
+    </string>
+
+
+    <string name="facebook_integration_dialog_message">Jumblee können jetzt posten Sie Ihre Partituren zu Facebook.
+\n
+\nDazu müssen Sie zuerst mit Facebook und gewähren Jumblee Erlaubnis zu authentifizieren muss
+\n- Access grundlegende Informationen
+\n  (Nicht von Jumblee verwendet, aber notwendig von jedem FB app)
+\n- Ihre Wand Beitrag
+\n- Zugriff auf Daten jederzeit
+\n  (Jumblee später nach, wenn Sie nicht verbunden sind jetzt)</string>
+
+    <string name="facebook_posting_message">Nur bis %6$s Punktzahl von %1$.0f auf Jumblee zerbrach.
+\nGefunden %2$d aus %3$d Wörter (%4$.0f%%) at %5$.2f Wörter pro Minute.
+\n
+\nBeat that!</string>
+    <string name="facebook_posting_message_utterFailure">Das ist wirklich peinlich. Ich spielte Jumblee und ich habe nicht einen einzigen Wort.
+\nWas ist schlimmer, ist, dass ich euch alle wissen lassen darüber entschieden.
+\n
+\nAber es ist ok, ich das nächste Mal, werde wirklich gut tun. Ich verspreche es.</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Scoreloop Strings -->
+    <string-array name="facebook_posting_descriptions">
+        <item>提高你的词汇量。 100000要解决的难题。</item>
+        <item>提高你的词汇量。你能找到多少个字？</item>
+        <item>100000要解决的难题。你能找到9个字母组成的单词吗？</item>
+        <item>100000要解决的难题。你能找到多少个字？</item>
+        <item>你的词汇量如何？拼字游戏的做法或许？或者只是烧了一段时间，保持思维敏捷。</item>
+    </string-array>
+</resources>

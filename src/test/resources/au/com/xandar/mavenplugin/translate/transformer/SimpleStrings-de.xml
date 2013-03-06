@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="splash_text">Loading ...</string>
+
+    <string name="single_quote">Das Vogelnest war hoch</string>
+    <string name="double_quote">Sie haben \"Kopf\"</string>
+    <string name="injected">Sie haben \"%1$s\"</string>
+</resources>

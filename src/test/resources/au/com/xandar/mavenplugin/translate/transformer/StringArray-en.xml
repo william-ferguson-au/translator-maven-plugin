@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Scoreloop Strings -->
+    <string-array name="facebook_posting_descriptions">
+        <item>Improve your vocabulary. 100,000 puzzles to solve.</item>
+        <item>Improve your vocabulary. How many words can you find?</item>
+        <item>100,000 puzzles to solve. Can you find the 9 letter word?</item>
+        <item>100,000 puzzles to solve. How many words can you find?</item>
+        <item>How\'s your vocabulary? Scrabble practice perhaps? Or just burn some time, keeping your mind sharp.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="word_accepted">干得好！\n你发现了一个又一个。</string>
+    <string name="word_accepted_nine_letter">干得好！\n你发现了9个字母组成的单词！</string>
+    <string name="word_rejected">对不起，“%1$s”\n是不是一个可以接受的词</string>
+    <string name="word_rejected_already_found">你已经发现\n“%1$s”</string>
+
+    <string name="crash_toast_text">一个意外的错误导致Jumblee的崩溃。对于由此带来的不便，我们深感抱歉。
+\n\n已发送一个错误报告，我们希望它尽快解决。</string>
+
+    <string name="overview_CurrentGameText">发现 %2$d 话 %1$d 
+\n剩余时间： %3$.1fs
+\n入门： %4$tl:%4$tM%4$tp %4$te-%4$tb-%4$ty
+    </string>
+
+    <string name="answerView_GameText">发现 %2$d 话 %1$d 
+\n
+\n发现： %3$s
+    </string>
+    <string name="answerView_GameText_IncludingUndiscovered">发现 %2$d 话 %1$d 
+\n
+\n发现： %3$s
+\n
+\n未被发现的： %4$s
+    </string>
+
+    <string name="progress_initialiseApplication">检索游戏的细节。
+\n请稍候...</string>
+    <string name="progress_startingNewGame">开始新游戏。
+\n请稍候...</string>
+    <string name="progress_resumingGame">恢复游戏。
+\n请稍候...</string>
+
+    <string name="progress_completingGame_message_noWordsFound_startingNewGame">清楚，最后一场比赛没去太清楚了。
+\n您没有找到一个字。
+\n
+\n但我很高兴你有另一个去。</string>
+    <string name="progress_completingGame_message_noWordsFound">Woah，你没有发现任何话！
+\n有另一个去，我敢肯定，你可以做的更好。</string>
+    <string name="progress_completingGame_message">干得好！你 %1$.0f 得分 %6$s。
+\n
+\n你发现了 %2$d 字 %3$d （%4$.0f%％）。
+\n在 %5$.2f 字每分钟的速度。
+\n
+\n你的分数将被张贴到我们的全球记分牌。</string>
+    <string name="progress_completingGame_message_askPostToFB">\n也愿意将它张贴到Facebook吗？</string>
+
+    <string name="progress_savingGame">保存游戏的细节。
+\n请稍候...</string>
+
+    <string name="confirmEndGame_message">\n退出这么快？
+\n你肯定就大功告成了吗？
+\n
+    </string>
+    <string name="confirmEndGame_positiveButton">我所做的一切</string>
+
+    <string name="update_to_new_version_message">
+\n当前版本： %1$s-%2$d
+\n新版本： %3$s-%4$d
+\n发布上 %5$s
+\n
+\n安装新版本？</string>
+    <string name="rate_me_dialog_message">我们已经竭尽所能，使Jumblee伟大的。
+\n
+\n既然你已经发挥了几次，
+\n我们希望您认为这是伟大的。
+\n
+\n如果您遇到任何问题或意见，
+\n让我们知道，我们可以得到他们的权利。
+\n
+\n如果你喜欢它，率在Android市场。
+\n让大家知道你觉得Jumblee是多么好。
+\n
+    </string>
+
+    <string name="piracy_dialog_message">Jumblee是制作多少爱
+\n和护理了许多个月的工作。
+\n
+\n问题是，这似乎这个Jumblee副本已经被盗版。这意味着，一些混蛋获利我的辛勤劳动，和你有一个永远无法得到改善Jumblee版本。
+\n
+\n要下载当前，合法和自由Jumblee版本，请点击下面相应的按钮。
+\n
+    </string>
+
+    <string name="how_to_play_dialog_message">Jumblee是一个字游戏，你必须在规定时间内找到许多字的4个或更多的字母。
+\n
+\n每个字都必须包含中央的信一次，而其他的瓷砖可用于不超过一次。
+\n
+\n你每场比赛开始60秒，并找到了一个新词增加了20秒的时间。
+\n
+\n游戏结束时，无论是：
+\n - 时间耗尽，或
+\n - 你放弃
+\n
+\n成绩是由找到的词的百分比，以及如何迅速地被发现的话。所以，你可以找到许多字，你可以尽快。
+\n
+\n有情趣。</string>
+
+    <string name="eula_dialog_message">我恨长枯燥的法律术语的EULA，所以这是不是一个。然而，它仍然您和Xandar私人有限公司之间的Jumblee使用许可协议，但希望它多一点乐趣。
+\n
+\n
+\n我租赁你的应用程序，它不会花费一分一毫。
+\n但内容却是我的，这只是你的租金。
+\n
+\n你可以给Jumblee给他人，不能充钱。
+\n您不能拆开或改变它，这不好笑。
+\n
+\n我会支持你，尽我所能收取任何费用。
+\n您同意它的游戏。无负债，无担保。
+\n
+\n我收集匿名使用数据，使游戏变得更好。
+\n您同意支持这项工作，作为最终用户。
+\n
+\nJumblee显示广告，导致我必须吃。
+\n粗糙（地区）的位置，使得这些广告很大。
+\n
+\n您同意，以显示广告，这是唯一公平的。
+\n要支付6个月的发展和脱发。
+\n
+\n我不储存您的位置，或对任何事物都使用它。
+\n如果是不断变化的，我答应先询问。</string>
+
+    <string name="no_available_jumbles_dialog_message">有没有任何Jumbles目前可用。
+\n
+\n你真的被搅动通过他们冒了出来。
+\n什么是你的percentageFound发现呢？
+\n想想你会与世界限定符的吗？
+\n
+\n无论如何，更多的Jumbles是正在生成。
+\n所以要有耐心，你就可以在一分钟内。
+\n
+\n很高兴见到你是如此热衷:-)</string>
+
+    <!-- About dialog -->
+    <string name="about_dialog_message">版本： %1$s-%2$d
+\n创建Xandar移动。
+\n（C）2011 Xandar移动。保留所有权利。</string>
+    <string name="about_dialog_updateMessage">
+\n一个新的版本可用。
+\n上 %3$s发表的版本 %1$s-%2$d 。
+\n
+\n你想更新吗？
+\n
+    </string>
+    <string name="about_dialog_contactUs_body">
+    \n
+    我们真的希望您喜欢玩Jumblee，但让我们知道你对游戏的看法。\n
+    \n
+    好，坏或丑陋，我们将听。\n
+    \n
+    \n
+    \n
+    Jumblee版本=%1$s-%2$d\n
+    电话=%3$s\n
+    手机型号=%4$s\n
+    Android版=%5$s\n
+    </string>
+
+
+    <string name="facebook_integration_dialog_message">Jumblee现在可以发表你的分数到Facebook。
+\n
+\n为此，您必须先进行身份验证与Facebook和授予Jumblee权限
+\n- 访问基本信息
+\n  （不使用Jumblee，而是由每一个FB应用所需的）
+\n- 发布你的墙
+\n- 访问数据随时
+\n  （Jumblee将发布以后，如果你现在不连接）</string>
+
+    <string name="facebook_posting_message">只要累计 %6$s 上Jumblee %1$.0f 得分。
+\n发现 %2$d  %3$d 字（%4$.0f%%) a吨 %5$.2f 字每分钟。
+\n
+\n节拍！</string>
+    <string name="facebook_posting_message_utterFailure">这实在是尴尬。我只是打Jumblee和我没有找到一个字。
+\n更糟的是，是，我决定让你知道它。
+\n
+\n但它的确定，下一次我打算做真的很好。我答应。</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="line_end">干得好！\n你发现了一个又一个。</string>
+    <string name="line_end_mid_sentence">猫\n坐在屋顶。</string>
+    <string name="complex_line_end">发现 %2$d 话 %1$d 
+\n剩余时间： %3$.1fs
+\n入门： %4$tl:%4$tM%4$tp %4$te-%4$tb-%4$ty
+    </string>
+    <string name="mid_eol">给\n呢？</string>
+</resources>

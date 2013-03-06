@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="single">Sie haben %1$s</string>
+    <string name="double">Sie haben %1$d von %2$d Worte.</string>
+</resources>

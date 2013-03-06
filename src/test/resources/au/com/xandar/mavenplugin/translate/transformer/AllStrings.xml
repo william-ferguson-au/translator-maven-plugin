@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jumblee</string>
+    <string name="service.jumbleFinder">Jumblee - Jumble Finder</string>
+    <string name="service.scoreloopPoster">Jumblee - Global Score Poster</string>
+    <string name="service.generalIntent">Jumblee</string>
+
+    <string name="splash_text">Loading ...</string>
+
+    <string name="word_accepted">Well done!\nYou found another one.</string>
+    <string name="word_accepted_nine_letter">Well done!\nYou found the 9 letter word!</string>
+    <string name="word_rejected">Sorry, \"%1$s\"\nis not an acceptable word</string>
+    <string name="word_rejected_already_found">You\'ve already found\n\"%1$s\"</string>
+
+    <string name="startButton">Start</string>
+    <string name="finishButton">Give\nUp?</string>
+    <string name="checkButton">Check</string>
+    <string name="clearButton">Clear</string>
+    <string name="okButton">OK</string>
+    <string name="acceptButton">Accept</string>
+    <string name="rejectButton">Decline</string>
+    <string name="currentWordView_defaultText"> </string>
+    <string name="gameClockView_defaultText"> </string>
+    <string name="gameScoreView_defaultText"> </string>
+
+
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_howToPlay">How to play</string>
+    <string name="menu_rateMe">Rate Me</string>
+    <string name="menu_licence">Licence</string>
+    <string name="menu_about">About</string>
+
+    <string name="couldNotCopyDatabase">Failed to copy database!</string>
+    <string name="crash_toast_text">An unexpected error has caused Jumblee to crash. Sorry for the inconvenience.
+\n\nA bug report has been sent and we hope to have it fixed soon.
+    </string>
+
+    <string name="overview_ResumeButton">Resume Game</string>
+    <string name="overview_NewGameButton">Start New Game</string>
+    <string name="overview_RulesButton">How To Play</string>
+    <string name="overview_EulaButton">Licence</string>
+    <string name="overview_ScoresButton">My Scores</string>
+    <string name="overview_GlobalProfileButton">Global Profile</string>
+    <string name="overview_GlobalScoresButton">Global Scores</string>
+
+    <string name="scores_label">Jumblee Scores</string>
+    <string name="scores_completed">Completed</string>
+    <string name="scores_nrFound">Found</string>
+    <string name="scores_percentageFound">Found</string>
+    <string name="scores_rate">Words/min</string>
+    <string name="scores_score">Score</string>
+
+    <string name="preferences_label">Jumblee Preferences</string>
+    <string name="preferences_hapticFeedBack_title">Haptic feed back</string>
+    <string name="preferences_hapticFeedBack_description">Vibrate on button presses</string>
+    <string name="preferences_soundEffect_title">Sound effect volume</string>
+    <string name="preferences_showConfirmationDialogOnEndGame_title">Confirm on end game</string>
+    <string name="preferences_showConfirmationDialogOnEndGame_message">Ask confirmation before ending game</string>
+    <string name="preferences_hideCheckWordToasts_title">Check word messages</string>
+    <string name="preferences_hideWordAccepted_description">Hide word accepted message</string>
+    <string name="preferences_hideWordRejected_description">Hide word rejected message</string>
+    <string name="preferences_hideWordAlreadyFound_description">Hide word already found message</string>
+
+    <string name="globalScores_label">Jumblee Global Scores</string>
+    <string name="globalProfile_label">Jumblee Global Profile</string>
+
+    <string name="overview_CurrentGameText">
+        Found %1$d of %2$d words
+\nTime Remaining: %3$.1fs
+\nStarted: %4$tl:%4$tM%4$tp %4$te-%4$tb-%4$ty
+    </string>
+
+    <string name="answerView_GameText">
+Found %1$d of %2$d words
+\n
+\nFound: %3$s
+    </string>
+    <string name="answerView_GameText_IncludingUndiscovered">
+Found %1$d of %2$d words
+\n
+\nFound: %3$s
+\n
+\nUndiscovered: %4$s
+    </string>
+
+    <string name="progress_initialiseApplication">
+Retrieving game details.
+\nPlease wait...
+    </string>
+    <string name="progress_startingNewGame">
+Starting new game.
+\nPlease wait...
+    </string>
+    <string name="progress_resumingGame">
+Resuming game.
+\nPlease wait...
+    </string>
+
+    <string name="progress_completingGame_title">Game complete</string>
+    <string name="progress_completingGame_message_noWordsFound_startingNewGame">Well that last game didn\'t go too well.
+\nYou didn\'t find a single word.
+\n
+\nBut I\'m glad you\'re having another go.
+    </string>
+    <string name="progress_completingGame_message_noWordsFound">Woah, you didn\'t find any words!
+\nHave another go, I\'m sure you can do better.
+    </string>
+    <string name="progress_completingGame_message">Well done! Your score of %1$.0f is %6$s.
+\n
+\nYou found %2$d words out of %3$d (%4$.0f%%).
+\nAt a rate of %5$.2f words per minute.
+\n
+\nYour score will be posted to our global scoreboard.
+    </string>
+    <string name="progress_completingGame_message_askPostToFB">\nWould you also like to post it to Facebook?
+    </string>
+    <string name="progress_completingGame_positiveButton">Post to FB</string>
+    <string name="progress_completingGame_neutralButton">OK</string>
+    <string name="progress_completingGame_negativeButton">Not Now</string>
+
+    <string name="progress_savingGame">
+Saving game details.
+\nPlease wait...
+    </string>
+
+    <string name="confirmEndGame_title">Giving up?</string>
+    <string name="confirmEndGame_message">\nQuitting so soon?
+\nAre you sure you\'re done?
+\n
+    </string>
+    <string name="confirmEndGame_positiveButton">I\'m done</string>
+    <string name="confirmEndGame_negativeButton">Cancel</string>
+
+    <string name="update_to_new_version_positive_button">Website</string>
+    <string name="update_to_new_version_neutral_button">Market</string>
+    <string name="update_to_new_version_negative_button">Not Now</string>
+    <string name="update_to_new_version_title">Update is available</string>
+    <string name="update_to_new_version_message">
+\nCurrent version: %1$s-%2$d
+\nNew Version: %3$s-%4$d
+\nPublished on %5$s
+\n
+\nInstall the new version?
+    </string>
+
+    <string name="rate_me_dialog_positive_button">Rate Me</string>
+    <string name="rate_me_dialog_negative_button">Not Now</string>
+    <string name="rate_me_dialog_title">Rate Me</string>
+    <string name="rate_me_dialog_message">We\'ve tried our best to make Jumblee great.
+\n
+\nSince you\'ve played it a few times now,
+\nwe hope you think it\'s great too.
+\n
+\nIf you come across any issues or ideas,
+\nlet us know so we can get right on them.
+\n
+\nAnd if you do like it, rate it in the Android market.
+\nLet everyone know how good you think Jumblee is.
+\n
+    </string>
+
+    <string name="piracy_dialog_positive_button">Website</string>
+    <string name="piracy_dialog_neutral_button">Market</string>
+    <string name="piracy_dialog_negative_button">Quit</string>
+    <string name="piracy_dialog_title">!!! PIRACY !!!</string>
+    <string name="piracy_dialog_message">Jumblee was crafted with much love
+\nand care and took many months of work.
+\n
+\nThe problem is, that it seems that this copy of Jumblee has been pirated.
+  Which means that some bastard is profiting off my hard labour, and you have a version of Jumblee that can never be improved.
+\n
+\nTo download a current, legitimate and <i>FREE</i> version of Jumblee, click on the appropriate button below.
+\n
+    </string>
+
+    <string name="how_to_play_dialog_title">How to play</string>
+    <string name="how_to_play_dialog_message">Jumblee is a word game where you must find as many words of four or more letters in the allotted time.
+\n
+\nEach word must contain the central letter exactly once, while other tiles can be used no more than once.
+\n
+\nYou start each game with 60 seconds and finding a new word increases that time by 20 seconds.
+\n
+\nThe games ends when either:
+\n - Time runs out, or
+\n - You give up
+\n
+\nScores are determined by both the percentageFound of words found and how quickly words are found. So find as many words as you can, as quickly as you can.
+\n
+\nHave fun.
+    </string>
+
+    <string name="eula_dialog_title">Jumblee License</string>
+    <string name="eula_dialog_message">I hate long boring legalese EULAs, so this isn\'t one. However, it\'s a still a license agreement between you and Xandar Pty Ltd for the use of Jumblee, but hopefully it\'s a bit more fun.
+\n
+\n
+\nI lease you this app, it won\'t cost a cent.
+\nBut the content is mine, it\'s only yours to rent.
+\n
+\nYou can give Jumblee to others, can\'t charge money.
+\nYou can\'t disassemble or change it, that\'s not funny.
+\n
+\nI\'ll support you as best I can and charge no fees.
+\nYou agree its a game. No liabilities, no warranties.
+\n
+\nI collect anon usage data, to make the game better.
+\nYou agree to support this, as the end-user.
+\n
+\nJumblee shows ads, cause I\'ve got to eat.
+\nRough (regional) location makes those ads great.
+\n
+\nYou agree to show the ads, it\'s only fair.
+\nTo pay for 6 months development and loss of hair.
+\n
+\nI don\'t store your location, or use it for aught else.
+\nIf that ever changes I promise to ask first.
+    </string>
+
+    <string name="no_available_jumbles_dialog_title">No available Jumbles</string>
+    <string name="no_available_jumbles_dialog_message">There aren\'t any Jumbles available at present.
+\n
+\nYou\'ve really been churning through them to run out.
+\nWhat\'s your percentageFound found?
+\nThink you\'ll make the world qualifier\'s with that?
+\n
+\nAnyway, more Jumbles are being generated.
+\nSo be patient and you can get back to it in a minute.
+\n
+\nGlad to see you\'re so keen :-)
+    </string>
+
+    <!-- About dialog -->
+    <string name="about_dialog_title">About Jumblee</string>
+    <string name="about_dialog_message">Version: %1$s-%2$d
+\nCreated by Xandar Mobility.
+\n(c) 2011 Xandar Mobility. All rights reserved.
+    </string>
+    <string name="about_dialog_updateMessage">
+\nA new version is available.
+\nVersion %1$s-%2$d published on %3$s.
+\n
+\nWould you like to update?
+\n
+    </string>
+    <string name="about_jumbleeHome"><u>Jumblee Home</u></string>
+    <string name="about_facebook"><u>Jumblee on Facebook</u></string>
+    <string name="about_contactUs"><u>Contact Us</u></string>
+    <string name="about_dialog_updateButton">Update</string>
+    <string name="about_dialog_closeButton">Close</string>
+    <string name="about_dialog_contactUs_subject">Jumblee Support</string>
+    <string name="about_dialog_contactUs_body">
+    \n
+    We really hope you\'re enjoying playing Jumblee, but let us know what you think about the game.\n
+    \n
+    Good, bad or ugly, we\'ll listen.\n
+    \n
+    \n
+    \n
+    JumbleeVersion=%1$s-%2$d\n
+    Phone=%3$s\n
+    PhoneModel=%4$s\n
+    AndroidVersion=%5$s\n
+    </string>
+
+
+    <string name="download_score_images_title">Download global score images</string>
+    <string-array name="download_score_image_options">
+        <item>Always</item>
+        <item>Only with wifi connection</item>
+        <item>Never</item>
+    </string-array>
+
+    <string name="facebook_integration_dialog_title">Post scores to Facebook</string>
+    <string name="facebook_integration_dialog_message">Jumblee can now post your scores to Facebook.
+\n
+\nTo do so you must first authenticate with Facebook and grant Jumblee permission to
+\n- Access basic info
+\n  (Not used by Jumblee but required by every FB app)
+\n- Post to your wall
+\n- Access data anytime
+\n  (Jumblee will post later if you\'re not connected now)
+    </string>
+    <string name="facebook_integration_dialog_authenticatedCheckbox">Authenticated</string>
+    <string name="facebook_integration_dialog_postScoresCheckbox">Post scores</string>
+    <string name="facebook_integration_dialog_minimumScoreToPostPicker">Minimum score to post</string>
+    <string name="facebook_integration_dialog_askBeforePostingCheckbox">Ask before posting</string>
+    <string name="facebook_integration_dialog_positiveButton">Done</string>
+
+    <!-- NB Keep this in sync with the facebook_posting_encouragementWords -->
+    <string name="encouragementWord_utterFailure">terrible</string>
+    <string-array name="progress_completingGame_encouragementWords">
+        <item>ok</item>
+        <item>good</item>
+        <item>very good</item>
+        <item>terrific</item>
+        <item>brilliant</item>
+        <item>excellent</item>
+        <item>fantastic</item>
+        <item>amazing</item>
+        <item>awesome</item>
+        <item>god like</item>
+    </string-array>
+
+    <string-array name="facebook_posting_encouragementWords">
+        <item>an ok</item>
+        <item>a good</item>
+        <item>a very good</item>
+        <item>a terrific</item>
+        <item>a brilliant</item>
+        <item>an excellent</item>
+        <item>a fantastic</item>
+        <item>an amazing</item>
+        <item>an awesome</item>
+        <item>a god like</item>
+    </string-array>
+
+    <string name="facebook_posting_caption">The best 9 letter word puzzle game for Android, and its FREE.</string>
+    <string name="facebook_posting_message">Just racked up %6$s score of %1$.0f on Jumblee.
+\nFound %2$d out of %3$d words (%4$.0f%%) at %5$.2f words per minute.
+\n
+\nBeat that!
+    </string>
+    <string name="facebook_posting_message_utterFailure">This is really embarrassing. I just played Jumblee and I didn\'t find a single word.
+\nWhat\'s worse, is that I decided to let you all know about it.
+\n
+\nBut it\'s ok, next time I\'m, going to do really well. I promise.
+    </string>
+
+    <string-array name="facebook_posting_descriptions">
+        <item>Improve your vocabulary. 100,000 puzzles to solve.</item>
+        <item>Improve your vocabulary. How many words can you find?</item>
+        <item>100,000 puzzles to solve. Can you find the 9 letter word?</item>
+        <item>100,000 puzzles to solve. How many words can you find?</item>
+        <item>How\'s your vocab? Scrabble practice perhaps? Or just burn some time keeping your mind sharp.</item>
+    </string-array>
+
+
+    <!-- Scoreloop Strings -->
+
+    <string name="btn_load_prev">Prev</string>
+    <string name="btn_load_next">Next</string>
+    <string name="btn_show_me">Show Me</string>
+    <string name="btn_my_profile">My Profile</string>
+    <string name="btn_global_scores">Global Scores</string>
+    <string name="btn_change_picture">Change Picture</string>
+    <string name="btn_rotate_picture">Rotate Picture</string>
+    <string name="btn_update_profile">Save Profile</string>
+    <string name="btn_discard_changes">Discard Changes</string>
+
+    <string name="profile_name_label">Scoreloop Login</string>
+    <string name="profile_email_label">Email Address</string>
+    <string name="profile_newProfileImage">New Image</string>
+
+    <string name="error_message_request_cancelled">Request has been canceled</string>
+    <string name="error_message_not_on_highscore_list">You are not part of this high score list yet</string>
+    <string name="error_message_network">Scoreloop server unavailable, try again later</string>
+    <string name="error_message_name_already_taken">User name has been already taken by another Scoreloop user</string>
+    <string name="error_message_email_already_taken">This email has already been taken</string>
+    <string name="error_message_invalid_email_format">Invalid email format</string>
+
+    <string name="progress_message_loading_user">Loading your details ...</string>
+    <string name="progress_message_updating_user">Updating your details ...</string>
+    <string name="progress_message_loading_scores">Loading scores ...</string>
+
+    <string-array name="game_modes">
+        <item>Score</item>
+        <item>Percentage</item>
+        <item>Words per Minute</item>
+    </string-array>
+
+
+</resources>

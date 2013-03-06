@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="single">你发现 %1$s</string>
+    <string name="double">您发现 %1$d 的 %2$d 字。</string>
+</resources>

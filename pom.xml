@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>au.com.xandar.maven</groupId>
+    <artifactId>translator-maven-plugin</artifactId>
+    <version>1.3-SNAPSHOT</version>
+    <name>Text translator</name>
+
+    <description>
+        Provides translation of text files, property files and Android string files.
+    </description>
+
+    <packaging>maven-plugin</packaging>
+
+    <url>http://translator-maven-plugin.xandar.com.au</url>
+
+    <scm>
+        <connection>scm:git:git@github.com:william-ferguson-au/translator-maven-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:william-ferguson-au/translator-maven-plugin.git</developerConnection>
+    </scm>
+
+    <distributionManagement>
+        <downloadUrl>http://rasta:8081/nexus/content/repositories/releases</downloadUrl>
+<!--
+        <site>
+            <id>xandar.site</id>
+            <url>ftp://ftp.xandar.com.au/public/translator-maven-plugin</url>
+        </site>
+-->
+        <repository>
+            <id>xandar.releases</id>
+            <name>Xandar Repository</name>
+            <url>http://rasta:8081/nexus/content/repositories/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>xandar.snapshots</id>
+            <name>Xandar Snapshot Repository</name>
+            <url>http://rasta:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <developers>
+        <developer>
+            <name>William Ferguson</name>
+            <email>william.ferguson@xandar.com.au</email>
+            <roles>
+                <role>owner</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <!--
+        <issueManagement>
+            <system>Google Code - Issue Tracking</system>
+            <url>http://code.google.com/p/google-api-translate-java-maven-plugin/issues/list</url>
+        </issueManagement>
+    -->
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <distribution>repo</distribution>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <comments>Go for it.</comments>
+        </license>
+    </licenses>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>2.3.2</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>2.8</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-plugin-plugin</artifactId>
+                    <version>2.8</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-project-info-reports-plugin</artifactId>
+                    <version>2.4</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>3.0</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-site-plugin</artifactId>
+                <configuration>
+                    <reportPlugins>
+                        <plugin>
+                            <artifactId>maven-plugin-plugin</artifactId>
+                        </plugin>
+                        <plugin>
+                            <artifactId>maven-javadoc-plugin</artifactId>
+                        </plugin>
+                        <plugin>
+                            <artifactId>maven-project-info-reports-plugin</artifactId>
+                            <reportSets>
+                                <reportSet>
+                                    <reports>
+                                        <report>index</report>
+                                        <report>summary</report>
+                                        <report>dependencies</report>
+                                        <report>project-team</report>
+                                        <!-- report>mailing-list</report -->
+                                        <!-- report>cim</report -->
+                                        <!-- report>issue-tracking</report -->
+                                        <report>license</report>
+                                        <report>plugins</report>
+                                        <!--report>plugin-management</report-->
+                                        <!-- report>scm</report -->
+                                    </reports>
+                                </reportSet>
+                            </reportSets>
+                        </plugin>
+                    </reportPlugins>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+
+        <!-- Translate Plugin Dependencies -->
+
+        <!--                                                                    -->
+        <!-- As of 08-Oct-2010, version 0.92 is the latest release of           -->
+        <!-- the 'google-api-translate-java' JAR and is hosted in Maven Central -->
+        <!--                                                                    -->
+        <!-- this library can be found at:                                      -->
+        <!-- http://code.google.com/p/google-api-translate-java                 -->
+        <!--                                                                    -->
+        <dependency>
+            <groupId>com.google.api</groupId>
+            <artifactId>google-api-translate-java</artifactId>
+            <version>0.96-2011-10-27</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20090211</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.memetix</groupId>
+            <artifactId>microsoft-translator-java-api</artifactId>
+            <version>0.4</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+            <version>3.0.3</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
